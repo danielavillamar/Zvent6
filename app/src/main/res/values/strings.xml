@@ -6,15 +6,12 @@
     <string name="nav_header_subtitle">gethelp@zvent.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">About</string>
-
     <string name="menu_home">Home</string>
     <string name="menu_gallery">About</string>
     <string name="about_text">"Zvent is dedicated for those who are looking for some fun out there were you don't have to worry about any detail. Be prepared to have a new organizing way to control who came to your party or event without going crazy. Mark the ✓ symbol for those who came and the ✕ for those who didn't. Enjoy your party!"</string>
     <string name="content_description" />
     <string name="home_text">What are you waiting for?</string>
     <string name="start_b">START</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="no" />
     <string name="reload">Restart</string>
@@ -33,10 +30,10 @@
     <string name="add_description">Description</string>
     <string name="add_order">Order</string>
     <string name="add_an_order">Select an order</string>
-    <item>Organizador</item>
-    <item>Fotografo</item>
-    <item>Participante</item>
-
-
+    <string-array name="array">
+        <item>Organizador</item>
+        <item>Fotografo</item>
+        <item>Participante</item>
+    </string-array>
 
 </resources>

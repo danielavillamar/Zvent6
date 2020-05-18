@@ -21,8 +21,7 @@ class AddRol : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate<FragmentAddRoleBinding>(inflater,
-            R.layout.add_role_fragment, container, false)
+        binding = DataBindingUtil.inflate<FragmentAddRoleBinding>(inflater, R.layout.add_role_fragment, container, false)
         viewModel = activity?.run {
             ViewModelProviders.of(this)[HomeViewModel::class.java]
         } ?: throw Exception("Invalid Activity")
@@ -58,7 +57,7 @@ class AddRol : Fragment() {
                         "\nNombre: " + texto3.text.toString()+
                         "\nDescripción: "+ texto4.text.toString()+
                         "\nOrder: " + binding.seekBar.progress.toString()
-                view?.findNavController()?.navigate(R.id.action_addRoleFragment_to_RoleFragment)
+                view?.findNavController()?.navigate(R.id.action_addRol_to_rol)
             }
         }
         return super.onOptionsItemSelected(item)

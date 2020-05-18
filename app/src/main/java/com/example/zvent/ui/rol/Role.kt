@@ -24,8 +24,6 @@ class Role : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-
-
         (activity as AppCompatActivity).supportActionBar?.title = "Rol"
 
 
@@ -36,12 +34,13 @@ class Role : Fragment() {
             ViewModelProviders.of(this)[HomeViewModel::class.java]
         } ?: throw Exception("Invalid Activity")
 
-        viewModel.roleslist.observe(viewLifecycleOwner, Observer { newList ->
+        viewModel.roleslist.observe(viewLifecycleOwner,
+            Observer { newList ->
             binding.texto6.text = newList
         })
 
         binding.fab_btn.setOnClickListener{
-            view?.findNavController()?.navigate(R.id.action_roleFragment_to_addroleFragment)
+            view?.findNavController()?.navigate(R.id.action_role_to_addRol)
         }
 
         return binding.root
