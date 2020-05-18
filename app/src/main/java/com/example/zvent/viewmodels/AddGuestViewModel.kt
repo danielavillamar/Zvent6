@@ -21,70 +21,80 @@ class AddGuestViewModel : ViewModel() {
             Guest(
                 "Carlos Perez",
                 "CarlitosP@gmail.com",
-                "33678310"
+                "33678310",
+                "Fotografo"
             )
         )
         guestsList.add(
             Guest(
                 "Maria Rosales",
                 "RosalesMaria@gmail.com",
-                "45781123"
+                "45781123",
+                "Fotografo"
             )
         )
         guestsList.add(
             Guest(
                 "Pepita Perez",
                 "Pepitap@gmail.com",
-                "35672312"
+                "35672312",
+                "Participante"
             )
         )
         guestsList.add(
             Guest(
                 "Oscar Maldonado",
                 "Maldonado123@gmail.com",
-                "36785641"
+                "36785641",
+                "Participante"
             )
         )
         guestsList.add(
             Guest(
                 "Laura Rodriguez",
                 "LauraEmilia@gmail.com",
-                "56478930"
+                "56478930",
+                "Participante"
             )
         )
         guestsList.add(
             Guest(
                 "Maria Barrios",
                 "Mbarrios@gmail.com",
-                "27678910"
+                "27678910",
+                "Organizador"
             )
         )
         guestsList.add(
             Guest(
                 "Daniela Collia",
                 "ColliaDaniela@gmail.com",
-                "56783213"
+                "56783213",
+                "Participante"
             )
         )
         guestsList.add(
             Guest(
                 "Daniel Lopez",
                 "LopraDaniel@gmail.com",
-                "23567832"
+                "23567832",
+                "Participante"
             )
         )
         guestsList.add(
             Guest(
                 "Pedro Mejicano",
                 "Mex@gmail.com",
-                "56431188"
+                "56431188",
+                "Organizador"
             )
         )
         guestsList.add(
             Guest(
                 "Martin Zuluaga",
                 "ZulMartin@gmail.com",
-                "78093715"
+                "78093715",
+                "Participante"
             )
         )
 

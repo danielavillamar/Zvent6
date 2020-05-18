@@ -44,15 +44,17 @@ class AddGuest : Fragment() {
         val name = EditTextName.getText().toString()
         val phone = EditTextPhone.getText().toString()
         val email = EditTextEmail.getText().toString()
+        val rol = EditTextRol.getText().toString()
 
         //Save guest
         if (item.itemId == R.id.saveQuestion){
-            viewModel.addGuest(Guest(name, phone, email))
+            viewModel.addGuest(Guest(name, phone, email,rol))
             Toast.makeText(activity, "Guest saved", Toast.LENGTH_SHORT).show()
             //Clearing for next guest info
             EditTextName.getText().clear()
             EditTextPhone.getText().clear()
             EditTextEmail.getText().clear()
+            EditTextRol.getText().clear()
         }
 
         return NavigationUI.onNavDestinationSelected(item, view!!.findNavController())

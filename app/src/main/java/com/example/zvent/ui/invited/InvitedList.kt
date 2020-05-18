@@ -27,7 +27,7 @@ class InvitedList : Fragment() {
         val list = viewModel.getInvited()
         for (item in list){
 
-            invitedText+="\n\nInvitado:"+"\n"+item.name + "\n"+item.phone +"\n"+ item.email + "\n"
+            invitedText+="\n\nInvitado:"+"\n"+item.name + "\n"+item.phone +"\n"+ item.email + "\n"+ item.rol + "\n"
         }
 
         binding.invitedList = invitedText

@@ -81,6 +81,22 @@
         android:id="@+id/addGuest"
         android:name="com.example.zvent.ui.invited.AddGuest"
         android:label="AddGuest"
-        tools:layout="@layout/add_guest_fragment" />
+        tools:layout="@layout/add_guest_fragment" >
+        <action
+            android:id="@+id/action_addGuest_to_role"
+            app:destination="@id/role" />
+    </fragment>
+    <fragment
+        android:id="@+id/addRol"
+        android:name="com.example.zvent.ui.rol.AddRol"
+        android:label="AddRol" />
+    <fragment
+        android:id="@+id/role"
+        android:name="com.example.zvent.ui.rol.Role"
+        android:label="Role" >
+        <action
+            android:id="@+id/action_role_to_addRol"
+            app:destination="@id/addRol" />
+    </fragment>
 
 </navigation>

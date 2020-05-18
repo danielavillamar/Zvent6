@@ -30,4 +30,13 @@
     <string name="guest_email">Guest email</string>
     <string name="guest_name">Guest name</string>
     <string name="guest_phone_number">Guest phone number</string>
+    <string name="add_description">Description</string>
+    <string name="add_order">Order</string>
+    <string name="add_an_order">Select an order</string>
+    <item>Organizador</item>
+    <item>Fotografo</item>
+    <item>Participante</item>
+
+
+
 </resources>

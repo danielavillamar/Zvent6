@@ -27,10 +27,10 @@
             android:id="@+id/EditTextPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
             android:ems="10"
             android:hint="@string/guest_phone_number"
             android:inputType="phone"
-            app:layout_constraintBottom_toTopOf="@+id/EditTextEmail"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.434"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,6 +38,19 @@
 
         <EditText
             android:id="@+id/EditTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/guest_email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EditTextName" />
+
+        <EditText
+            android:id="@+id/EditTextRol"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -60,5 +73,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.165" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
